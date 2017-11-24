@@ -68,5 +68,6 @@
        @foreach ($users as $user)
        <li>{{$user}}</li>
        @endforeach
+       <h1>这里是测试页面</h1>
     </body>
 </html>
