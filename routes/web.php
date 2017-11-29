@@ -23,4 +23,6 @@
 Route::get('/', 'PagesController@home');
 Route::get('about', 'PagesController@about');
 Route::get('test', 'PagesController@test');
-Route::get('post','PagesController@index');
+Route::get('posts','PostsController@index');
+Route::get('posts/{post}','PostsController@show');
+

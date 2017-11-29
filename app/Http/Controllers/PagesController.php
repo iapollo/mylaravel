@@ -22,9 +22,4 @@ class PagesController extends Controller
     {
     	return view('pages.test');
     }
-
-    public function index()
-    {
-        return view('pages.index');
-    }
 }
